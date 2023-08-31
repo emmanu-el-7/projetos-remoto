@@ -1,10 +1,10 @@
 import './App.css'
-import ConditionalRendering from './Components/ConditionalRendering'
+import Lista_Filmes from './Components/Lista_Filmes'
 
 function App () {
   return (
     <>
-      <ConditionalRendering />
+      <Lista_Filmes />
     </>
   )
 }

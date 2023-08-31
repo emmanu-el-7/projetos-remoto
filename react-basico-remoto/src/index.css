@@ -25,3 +25,26 @@ h1 {
 h2 {
   text-align: center;
 }
+
+.movie-list {
+  list-style-type: none; /* Remova as bolinhas padrão */
+  padding-left: 0; /* Remova o recuo padrão da lista */
+}
+
+.movie-list li {
+  margin-bottom: 20px;
+}
+
+.movie-marker {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.movie-title {
+  font-weight: bold;
+}
+
+.movie-release {
+  font-size: 12px;
+  margin-right: 10px;
+}
