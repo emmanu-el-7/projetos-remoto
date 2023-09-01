@@ -11,10 +11,10 @@ function Lista_Filmes () {
 
   return (
     <div>
-      <h2>Lista de Filmes</h2>
+      <h2>Movies List</h2>
       <input
         type='text'
-        placeholder='Buscar filmes'
+        placeholder='Search Movies'
         value={searchTerm}
         onChange={e => setSearchTerm(e.target.value)}
       />
