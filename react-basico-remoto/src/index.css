@@ -15,10 +15,12 @@ ul {
   text-decoration: none;
   color: #8C6C8A;
   transition: .5s;
+  margin-bottom: 20px;
 }
 
 h1 {
   text-align: center;
+  color: #8C6C8A;
 }
 
 h2 {
@@ -26,9 +28,14 @@ h2 {
   color: #8C6C8A;
 }
 
+h3 {
+  text-align: center;
+  color: #8C6C8A;
+}
+
 .movie-list {
-  list-style-type: none; /* Remova as bolinhas padrão */
-  padding-left: 0; /* Remova o recuo padrão da lista */
+  list-style-type: none;
+  padding-left: 0; 
 }
 
 .movie-list li {
