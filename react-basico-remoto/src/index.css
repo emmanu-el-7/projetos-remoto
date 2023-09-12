@@ -1,12 +1,7 @@
 body {
   background-color:#1A233A;
-
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 ul {
   text-align: center;
@@ -21,16 +16,37 @@ ul {
 h1 {
   text-align: center;
   color: #8C6C8A;
+  font-family: monospace;
 }
 
 h2 {
   text-align: center;
   color: #8C6C8A;
+  font-family: monospace;
 }
 
 h3 {
   text-align: center;
   color: #8C6C8A;
+  height: 75px;
+  font-family: monospace;
+}
+
+h4 {
+  text-align: center;
+  color: #8C6C8A;
+  font-family: monospace;
+  font: larger;
+}
+
+span {
+  font-family: monospace;
+  font: larger;
+}
+
+p {
+  font-family: monospace;
+  font-size: larger;
 }
 
 .movie-list {
@@ -56,10 +72,24 @@ h3 {
   margin-right: 10px;
 }
 
-* {
-  font-family: Helvetica;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 
+.container {
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px #8C6C8A,
+  0 0 25px #8C6C8A
+}
+
+.search-input:hover {
+  box-shadow: 0 0 5px #8C6C8A,
+  0 0 25px #8C6C8A, 0 0 50px #8C6C8A,
+  0 0 100px #8C6C8A, 0 0 200px #8C6C8A;
 }

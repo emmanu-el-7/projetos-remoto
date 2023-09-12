@@ -12,19 +12,23 @@ function Lista_Filmes () {
   return (
     <div>
       <h2>Movies List</h2>
-      <input
-        type='text'
-        placeholder='Search Movies'
-        value={searchTerm}
-        onChange={e => setSearchTerm(e.target.value)}
-      />
+      <div className='container'>
+        <input
+          className='search-input'
+          type='text'
+          placeholder='Search Movies'
+          value={searchTerm}
+          onChange={e => setSearchTerm(e.target.value)}
+        />
+      </div>
+      <h3>Search Results:</h3>
       {filteredMovies.length > 0 ? (
         <ul className='movie-list'>
           {filteredMovies.map(filme => (
             <li key={filme.id}>
               <span className='movie-marker'>&#8226;</span>
               <span className='movie-title'>{filme.title}</span>
-              <h3 className='movie-release'>{filme.year}</h3>
+              <h4 className='movie-release'>{filme.year}</h4>
               <p>{filme.extract}</p>
             </li>
           ))}
