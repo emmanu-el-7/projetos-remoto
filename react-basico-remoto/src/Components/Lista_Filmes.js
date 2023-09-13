@@ -16,7 +16,7 @@ function Lista_Filmes () {
         <input
           className='search-input'
           type='text'
-          placeholder='Search Movies'
+          placeholder='Search Movie'
           value={searchTerm}
           onChange={e => setSearchTerm(e.target.value)}
         />
