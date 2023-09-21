@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import movies from '../Data/movies.json'
+import Navbar from './Navbar.jsx'
 
 function Lista_Filmes () {
   const [searchTerm, setSearchTerm] = useState('')

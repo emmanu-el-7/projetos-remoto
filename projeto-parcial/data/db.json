@@ -1,0 +1,260 @@
+{
+  "products": [
+    {
+      "id": "94313731",
+      "name": "PROCESSADOR AMD RYZEN 7 5700X",
+      "price": 1249.99,
+      "oldPrice": 1469.41,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/1/0/100-100000926wof.jpg"
+    },
+    {
+      "id": "94313762",
+      "name": "PROCESSADOR AMD RYZEN 5 5600",
+      "price": 829.99,
+      "oldPrice": 976.46,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/1/0/100-100000927box_1.jpg"
+    },
+
+    {
+      "id": "943137XQ",
+      "name": "PROCESSADOR AMD RYZEN 7 7700",
+      "price": 1999.99,
+      "oldPrice": 2352.93,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/1/0/100-100000592box.jpg"
+    },
+    {
+      "id": "95077714",
+      "name": "PROCESSADOR INTEL CORE I3-12100F",
+      "price": 599.99,
+      "oldPrice": 704.71,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/x/bx8071512100f-br2.jpg"
+    },
+    {
+      "id": "9507779N",
+      "name": "PROCESSADOR INTEL CORE I5-12400",
+      "price": 1099.99,
+      "oldPrice": 1292.94,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/x/bx80715124002.jpg"
+    },
+    {
+      "id": "92601102",
+      "name": "PROCESSADOR INTEL CORE I5-13600K",
+      "price": 1999.99,
+      "oldPrice": 2351.77,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/x/bx8071513600k.jpg"
+    },
+    {
+      "id": "9465450R",
+      "name": "PLACA MAE ASROCK A520M",
+      "price": 599.90,
+      "oldPrice": 705.76,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/5/a520m-hdv3.jpg"
+    },
+    {
+      "id": "95004531",
+      "name": "PLACA MAE ASROCK B550M",
+      "price": 1299.99,
+      "oldPrice": 1529.40,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/5/b550m-pg-riptide3.jpg"
+    },
+    {
+      "id": "94672705",
+      "name": "PLACA MAE ASROCK B650",
+      "price": 1999.99,
+      "oldPrice": 2352.93,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/6/b650-pro-rs4.jpg"
+    },
+    {
+      "id": "92456602",
+      "name": "PLACA MAE GIGABYTE H510M",
+      "price": 599.99,
+      "oldPrice": 705.87,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/h/5/h510-s2h-v24.jpg"
+    },
+    {
+      "id": "94461431",
+      "name": "PLACA MAE GIGABYTE B760M",
+      "price": 1299.99,
+      "oldPrice": null,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/7/b760m-ds3h-ax-ddr43.jpg "
+    },
+    {
+      "id": "95850662",
+      "name": "PLACA MAE GIGABYTE Z790",
+      "price": 1999.90,
+      "oldPrice": 2352.82,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/z/7/z790-d-ddr42.jpg"
+    },
+    {
+      "id": "943137X8",
+      "name": "PLACA DE VIDEO MSI GEFORCE RTX 3060",
+      "price": 2059.99,
+      "oldPrice": 2422.35,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/1/912-v397-823.jpg"
+    },
+    {
+      "id": "93227802",
+      "name": "PLACA DE VIDEO GALAX GEFORCE RTX 4060 TI",
+      "price": 3779.99,
+      "oldPrice": 4445.88,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/4/6/46izl8md8yex5.jpg"
+    },
+    {
+      "id": "93828502",
+      "name": "PLACA DE VIDEO GIGABYTE GEFORCE RTX 4070",
+      "price": 4699.99,
+      "oldPrice": 5528.24,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/g/v/gv-n4070gaming-oc-12gd2.jpg"
+    },
+
+    {
+      "id": "95150929",
+      "name": "PLACA DE VIDEO XFX RADEON RX 6700",
+      "price": 2299.99,
+      "oldPrice": 2704.71,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/r/x/rx-67xlkwfdv3.jpg"
+    },
+    {
+      "id": "95870805",
+      "name": "PLACA DE VIDEO ASUS RADEON RX 7600",
+      "price": 2249.99,
+      "oldPrice": 2645.88,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/d/u/dual-rx7600-o8g-v29.jpg"
+    },
+    {
+      "id": "95707805",
+      "name": "PLACA DE VIDEO ASROCK RADEON RX 7700 XT",
+      "price": 3249.99,
+      "oldPrice": 3822.35,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/0/90-ga4qzz-00uanf1.jpg"
+    },
+    {
+      "id": "94672719",
+      "name": "PLACA DE VIDEO ASROCK INTEL ARC A380",
+      "price": 899.99,
+      "oldPrice": 1058.41,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/3/a380-cli-6go3.jpg"
+    },
+    {
+      "id": "95876431",
+      "name": "PLACA DE VIDEO ASROCK INTEL ARC A750",
+      "price": 1429.99,
+      "oldPrice": 1682.34,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/7/a750-cld-8go3.jpg"
+    },
+
+    {
+      "id": "95707845",
+      "name": "PLACA DE VIDEO ASROCK INTEL ARC A770",
+      "price": 2359.99,
+      "oldPrice": 2775.29,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/0/90-ga4kzz-00uanf1.jpg"
+    },
+    {
+      "id": "946545OX",
+      "name": "FONTE COOLER MASTER G600 GOLD, 600W",
+      "price": 499.90,
+      "oldPrice": 588.12,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/m/p/mpw-6001-acaag-br7.jpg"
+    },
+    {
+      "id": "9465450M",
+      "name": "FONTE COOLER MASTER G800 GOLD, 800W",
+      "price": 639.90,
+      "oldPrice": 752.82,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/m/p/mpw-8001-acaag-br5.jpg"
+    },
+    {
+      "id": "95939145",
+      "name": "FONTE LIAN LI SP850, 850W",
+      "price": 1179.90,
+      "oldPrice": 1388.12,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/s/p/sp850-whiteeu.jpg"
+    },
+    {
+      "id": "95326905",
+      "name": "WATER COOLER AIGO DARKFLASH RADIANT 120MM",
+      "price": 219.99,
+      "oldPrice": 258.71,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/d/c/dc120pk4.jpg"
+    },
+    {
+      "id": "951509X8",
+      "name": "WATER COOLER COOLER MASTER MASTERLIQUID 240MM",
+      "price": 579.90,
+      "oldPrice": 682.23,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/m/l/mlw-d24m-a18pz-rw255.jpg"
+    },
+    {
+      "id": "9515093X",
+      "name": "WATER COOLER COOLER MASTER MASTERLIQUID 360MM",
+      "price": 719.99,
+      "oldPrice": 846.94,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/m/l/mlw-d36m-a18pz-rw.jpg"
+    },
+    {
+      "id": "9590484W",
+      "name": "COOLER PARA PROCESSADOR COOLER MASTER HYPER 212 120MM",
+      "price": 269.99,
+      "oldPrice": 317.99,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/r/r/rr-s4kk-20pa-r12.jpg"
+    },
+    {
+      "id": "943137D0",
+      "name": "COOLER PARA PROCESSADOR COUGAR FORZA 85 ESSENTIAL 120MM",
+      "price": 279.99,
+      "oldPrice": 329.99,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/c/g/cgr-fzae851.jpg"
+    },
+    {
+      "id": "9465459P",
+      "name": "COOLER PARA PROCESSADOR DEEPCOOL AG620 ARGB 120MM",
+      "price": 379.99,
+      "oldPrice": 446.25,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/r/-/r-ag620-bkanmn-g-27.jpg"
+    },
+    {
+      "id": "94218131",
+      "name": "KIT GABINETE GAMER MANCER DREAD, 3 FANS, PRETO + KIT 3 VENTOINHAS MANCER Z200, 3X120MM",
+      "price": 249.99,
+      "oldPrice": 294.99,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/k/i/kit_dread_e_ventoinhas_zr200_1_.jpg"
+    },
+    {
+      "id": "95707858",
+      "name": "GABINETE GAMER ALSEYE AS305, MID-TOWER",
+      "price": 219.90,
+      "oldPrice": 257.71,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/as305bk156.jpg"
+    },
+    {
+      "id": "94876962",
+      "name": "GABINETE GAMER REDRAGON WIDELOAD LITE, MID-TOWER",
+      "price": 399.99,
+      "oldPrice": 470.47,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/c/a/ca-604b.jpg"
+    },
+    {
+      "id": "94313703",
+      "name": "GABINETE GAMER LIAN LI O11 DYNAMIC MINI",
+      "price": 769.99,
+      "oldPrice": 905.76,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/o/1/o11dmini-rd-x-black3_1.jpg"
+    },
+
+    {
+      "id": "93761902",
+      "name": "GABINETE GAMER THERMALTAKE CERES 300 TG",
+      "price": 839.99,
+      "oldPrice": 988.22,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/c/a/ca-1y2-00m1wn-002.jpg"
+    },
+    {
+      "id": "95150919",
+      "name": "TECLADO MECANICO GAMDIAS AURA GK2, SWITCH BLUE",
+      "price": 159.99,
+      "oldPrice": 188.99,
+      "image": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/u/aura-gk2-pt-blue-wb455.jpg"
+    }
+  ]
+}
