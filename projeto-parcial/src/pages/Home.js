@@ -33,6 +33,8 @@ const Home = () => {
         <div className='logo'>
           <img src={Logo} alt='Hardware Heaven Logo' />
         </div>
+        {loading && <p>Carregando dados...</p>}
+        {error && <p>{error}</p>}
         <div className='carousel' ref={carousel}>
           {items &&
             items.map(item => (
