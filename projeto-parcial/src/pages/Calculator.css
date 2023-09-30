@@ -1,0 +1,54 @@
+/* Calculator.css */
+.calculator {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.calculator h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.calculator form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.calculator form div {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator form button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.calculator form button:hover {
+  background-color: #0051a6;
+}
+
+.calculator form button:active {
+  background-color: #00428c;
+}
+
+.calculator h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
