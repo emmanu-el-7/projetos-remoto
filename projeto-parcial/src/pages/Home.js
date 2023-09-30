@@ -4,14 +4,26 @@ import Logo from '../images/Captura de tela 2023-09-30 111023.png'
 import RightArrow from '../images/216151_right_chevron_icon.png'
 
 import { NavLink } from 'react-router-dom'
+import { useGetData } from '../hooks/useGetData'
+import { useRef } from 'react'
 
 const Home = () => {
+  const url = 'http://localhost:3000/products'
+
+  const { data: items, loading, error } = useGetData(url)
+
+  const carousel = useRef(null)
+
   const handleLeftClick = e => {
-    e.prevent.Default()
+    e.preventDefault()
+
+    carousel.current.scrollLeft -= carousel.current.offsetWidth
   }
 
-  const handleRightCLick = e => {
-    e.prevent.Default()
+  const handleRightClick = e => {
+    e.preventDefault()
+
+    carousel.current.scrollLeft += carousel.current.offsetWidth
   }
 
   return (
@@ -20,35 +32,37 @@ const Home = () => {
         <div className='logo'>
           <img src={Logo} alt='Hardware Heaven Logo' />
         </div>
-        <div className='carousel'>
+        <div className='carousel' ref={carousel}>
           <div className='item'>
-            <div className='image'>
-              <img
-                src='https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/1/0/100-100000457box1.jpg'
-                alt='PROCESSADOR AMD RYZEN 5 5500'
-              />
-            </div>
-            <div className='info'>
-              <span className='name'>PROCESSADOR AMD RYZEN 5 5500</span>
-              <span className='oldPrice'>R$ 598.99</span>
-              <span className='price'>R$ 704.69</span>
-            </div>
-            <p className='detalhes'>
-              <NavLink to='/products/94313731'>Detalhes</NavLink>
-            </p>
+            {items &&
+              items.map(item => (
+                <div className='item' key={item.id}>
+                  <div className='image'>
+                    <img src={item.image} alt={item.name} />
+                  </div>
+                  <div className='info'>
+                    <span className='name'>{item.name}</span>
+                    <span className='oldPrice'>R$ {item.oldPrice}</span>
+                    <span className='price'>R$ {item.price}</span>
+                  </div>
+                  <p className='detalhes'>
+                    <NavLink to={`products/${item.id}`}>Detalhes</NavLink>
+                  </p>
+                </div>
+              ))}
+          </div>
+          <div className='buttons'>
+            <button className='left_button' onClick={handleLeftClick}>
+              <img src={RightArrow} alt='Scroll Left' />
+            </button>
+            <button className='right_button' onClick={handleRightClick}>
+              <img src={RightArrow} alt='Scroll Right' />
+            </button>
           </div>
         </div>
-        <div className='buttons'>
-          <button className='left_button' onClick={handleLeftClick}>
-            <img src={RightArrow} alt='Scroll Left' />
-          </button>
-          <button className='right_button' onClick={handleRightCLick}>
-            <img src={RightArrow} alt='Scroll Right' />
-          </button>
-        </div>
+        <NavLink to='/products'>Detalhes</NavLink>
+        <NavLink to='/calculator'>Calculadora</NavLink>
       </div>
-      <NavLink to='/products'>Detalhes</NavLink>
-      <NavLink to='/calculator'>Calculadora</NavLink>
     </div>
   )
 }

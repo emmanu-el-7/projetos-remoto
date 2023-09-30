@@ -93,3 +93,7 @@ body {
 .container .buttons button:first-child img {
     transform: rotate(180deg);
 }
+
+.container .carousel::-webkit-scrollbar {
+    display: none;
+}
