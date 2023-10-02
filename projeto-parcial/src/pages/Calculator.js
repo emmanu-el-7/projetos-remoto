@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Calculator.css'
 import { NavLink } from 'react-router-dom'
+import Logo from '../images/Captura de tela 2023-09-30 111023.png'
 
 function Calculator () {
   const [expression, setExpression] = useState('')
@@ -27,7 +28,9 @@ function Calculator () {
   return (
     <>
       <div>
-        <h1>Calculadora</h1>
+        <div className='logo'>
+          <img src={Logo} alt='Hardware Heaven Logo' />
+        </div>
         <form>
           <input type='text' value={expression} readOnly />
           <div>

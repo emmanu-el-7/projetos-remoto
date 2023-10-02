@@ -1,0 +1,23 @@
+/* Navbar.css */
+
+nav {
+  background-color: #b2ebf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #8a77e1; /* Cor de fundo dos botões */
+  color: #d2cbf3; /* Cor do texto dos botões */
+  padding: 10px 20px;
+  margin: 0 15px; /* Espaçamento entre os botões */
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #492F63; /* Cor de fundo dos botões no hover */
+}

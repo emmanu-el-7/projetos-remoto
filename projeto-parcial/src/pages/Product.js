@@ -1,8 +1,10 @@
 import styles from './Product.module.css'
 
+import Logo from '../images/Captura de tela 2023-09-30 111023.png'
+
 import { useGetData } from '../hooks/useGetData'
 
-import { useParams } from 'react-router-dom'
+import { useParams, NavLink } from 'react-router-dom'
 const Product = () => {
   const { id } = useParams()
 
@@ -12,19 +14,29 @@ const Product = () => {
 
   const { data: product, loading, error } = useGetData(url)
   return (
-    <div>
-      <p className={styles.id}>ID do produto: {id}</p>
+    <>
+      <div className='logo'>
+        <img src={Logo} alt='Hardware Heaven Logo' />
+      </div>
+      <div>
+        <p className={styles.id}>ID do produto: {id}</p>
 
-      {product && (
-        <div>
-          <h1>{product.name}</h1>
-          <div className={styles.image}>
-            <img src={product.image} alt={product.name} />
+        {error && <p>Ocorreu um erro...</p>}
+        {loading && <p>Carregando um produto...</p>}
+        {product && (
+          <div>
+            <h1>{product.name}</h1>
+            <div className={styles.image}>
+              <img src={product.image} alt={product.name} />
+            </div>
+            <p className={styles.price}>R$ {product.price}</p>
+            <NavLink to={`/products/${product.id}/info`}>
+              Mais informações
+            </NavLink>
           </div>
-          <p className={styles.price}>R$ {product.price}</p>
-        </div>
-      )}
-    </div>
+        )}
+      </div>
+    </>
   )
 }
 

@@ -1,0 +1,60 @@
+/* Estilos para ProductList.js */
+.product-list {
+  text-align: center;
+}
+
+.product-list h1 {
+  color: #8a77e1; /* Cor principal do título */
+  font-size: 24px;
+}
+
+.product-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  background-color: #e1f7fd; /* Cor de fundo do item da lista */
+  border: 1px solid #d2cbf3; /* Cor da borda */
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.product-list img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-list h2 {
+  color: #32144f; /* Cor do título do produto */
+  font-size: 18px;
+}
+
+.product-list p {
+  color: #32144f; /* Cor do texto de preço */
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.product-list .old-price {
+  color: #32144f; /* Cor do texto de preço antigo */
+  text-decoration: line-through;
+}
+
+/* Estilização para os botões, se necessário */
+.product-list button {
+  background-color: #8a77e1; /* Cor do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.product-list button:hover {
+  background-color: #32144f; /* Cor do botão ao passar o mouse */
+}

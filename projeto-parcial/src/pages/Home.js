@@ -32,6 +32,8 @@ const Home = () => {
         <div className='logo'>
           <img src={Logo} alt='Hardware Heaven Logo' />
         </div>
+        {loading && <p>Carregando dados...</p>}
+        {error && <p>{error}</p>}
         <div className='carousel' ref={carousel}>
           <div className='item'>
             {items &&
@@ -60,8 +62,6 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <NavLink to='/products'>Detalhes</NavLink>
-        <NavLink to='/calculator'>Calculadora</NavLink>
       </div>
     </div>
   )
