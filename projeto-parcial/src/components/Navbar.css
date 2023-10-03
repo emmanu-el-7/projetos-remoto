@@ -1,7 +1,7 @@
 /* Navbar.css */
 
 nav {
-  background-color: #b2ebf9;
+  background: radial-gradient(circle, #b2ebf9, #d2cbf3);
   display: flex;
   justify-content: center;
   align-items: center;

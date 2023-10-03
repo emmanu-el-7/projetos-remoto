@@ -16,8 +16,6 @@ function App () {
   return (
     <div className='App'>
       <BrowserRouter>
-        <Navbar />
-        <SearchForm />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />

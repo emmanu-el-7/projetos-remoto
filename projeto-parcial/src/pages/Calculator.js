@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Calculator.css'
 import { NavLink } from 'react-router-dom'
 import Logo from '../images/Captura de tela 2023-09-30 111023.png'
+import Navbar from '../components/Navbar'
 
 function Calculator () {
   const [expression, setExpression] = useState('')
@@ -28,6 +29,7 @@ function Calculator () {
   return (
     <>
       <div>
+        <Navbar />
         <div className='logo'>
           <img src={Logo} alt='Hardware Heaven Logo' />
         </div>
@@ -94,7 +96,6 @@ function Calculator () {
           <h2>Resultado: {result}</h2>
         </div>
       </div>
-      <NavLink to='/'>Home</NavLink>
     </>
   )
 }

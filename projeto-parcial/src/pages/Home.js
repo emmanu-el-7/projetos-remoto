@@ -1,69 +1,65 @@
+import React, { ReactDOM, useState } from 'react'
+import { NavLink } from 'react-router-dom'
+import Logo from '../images/Captura de tela 2023-09-30 111023.png'
 import './Home.css'
 
-import Logo from '../images/Captura de tela 2023-09-30 111023.png'
-import RightArrow from '../images/216151_right_chevron_icon.png'
-
-import { NavLink } from 'react-router-dom'
-import { useGetData } from '../hooks/useGetData'
-import { useRef } from 'react'
-
 const Home = () => {
-  const url = 'http://localhost:3000/products'
+  const [menuOpen, setMenuOpen] = useState(false)
 
-  const { data: items, loading, error } = useGetData(url)
-
-  const carousel = useRef(null)
-
-  const handleLeftClick = e => {
-    e.preventDefault()
-
-    carousel.current.scrollLeft -= carousel.current.offsetWidth
+  const handleToggleMenu = () => {
+    setMenuOpen(!menuOpen)
   }
-
-  const handleRightClick = e => {
-    e.preventDefault()
-
-    carousel.current.scrollLeft += carousel.current.offsetWidth
-  }
-
   return (
-    <div>
-      <div className='container'>
+    <>
+      <header id='header'>
         <div className='logo'>
           <img src={Logo} alt='Hardware Heaven Logo' />
         </div>
-        {loading && <p>Carregando dados...</p>}
-        {error && <p>{error}</p>}
-        <div className='carousel' ref={carousel}>
-          <div className='item'>
-            {items &&
-              items.map(item => (
-                <div className='item' key={item.id}>
-                  <div className='image'>
-                    <img src={item.image} alt={item.name} />
-                  </div>
-                  <div className='info'>
-                    <span className='name'>{item.name}</span>
-                    <span className='oldPrice'>R$ {item.oldPrice}</span>
-                    <span className='price'>R$ {item.price}</span>
-                  </div>
-                  <p className='detalhes'>
-                    <NavLink to={`products/${item.id}`}>Detalhes</NavLink>
-                  </p>
-                </div>
-              ))}
-          </div>
-          <div className='buttons'>
-            <button className='left_button' onClick={handleLeftClick}>
-              <img src={RightArrow} alt='Scroll Left' />
-            </button>
-            <button className='right_button' onClick={handleRightClick}>
-              <img src={RightArrow} alt='Scroll Right' />
-            </button>
-          </div>
-        </div>
+        <nav class='nav'>
+          <button
+            className={`toggle-menu ${menuOpen ? 'active' : ''}`}
+            onClick={handleToggleMenu}
+          >
+            {' '}
+            <span></span>
+          </button>
+        </nav>
+      </header>
+      <div id='menu' className={menuOpen ? 'open' : ''}>
+        <nav class='main-nav'>
+          <ul>
+            <li>
+              <NavLink to='/products'>Lista de Produtos</NavLink>
+            </li>
+            <li>
+              <NavLink to='/calculator'>Calculadora</NavLink>
+            </li>
+            <li>
+              <NavLink to='/about'>Sobre</NavLink>
+            </li>
+          </ul>
+        </nav>
+
+        <footer className='menu-footer'>
+          <nav className='footer-nav'>
+            <ul>
+              <li>
+                <a href='#'>
+                  <i className='fa fa-twitter fa-fw'></i>
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  <i className='fa fa-envelope fa-fw'></i>
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </footer>
       </div>
-    </div>
+    </>
   )
 }
 
