@@ -4,6 +4,7 @@ import About from './pages/About'
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 import HookUseState from './components/HookUseState'
 import HookUseReducer from './components/HookUseReducer'
+import HookUseEffect from './components/HookUseEffect'
 
 function App () {
   return (
@@ -19,7 +20,7 @@ function App () {
               <NavLink to='/about'>About</NavLink>
             </li>
           </ul>
-          <HookUseReducer />
+          <HookUseEffect />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
